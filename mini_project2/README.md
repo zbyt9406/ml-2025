@@ -1,0 +1,108 @@
+# 🤖 Machine Learning Mini-Project 2: Probabilistic Models & Decision Trees
+
+This repository contains the **second mini-project** for the **Machine Learning (Spring 2025)** course at **K. N. Toosi University of Technology**.  
+It covers **probabilistic classifiers**, **instance-based learning**, and **tree-based models** through three practical questions.
+
+---
+
+## 📁 Project Structure
+
+├── Question_1_Bayesian_Spam_Filtering/
+│ └── Naive Bayes for SMS spam classification
+├── Question_2_KNN_on_MNIST/
+│ └── K-Nearest Neighbors for handwritten digit recognition
+├── Question_3_Decision_Tree_for_Sales_Analysis/
+│ └── Decision Tree for analyzing clothing sales data
+
+---
+
+## 📨 Question 1: Spam Filtering with Naive Bayes
+
+Applies **Bayesian classifiers** to detect spam messages in an SMS dataset, aiming to compare theoretical models and implement a Naive Bayes classifier **from scratch**.
+
+### 🔍 Key Tasks
+
+- **📘 Theoretical Comparison**  
+  Detailed comparison between **Naive Bayes** and **Optimal Bayes**, highlighting key differences.
+
+- **🧠 Model Selection**  
+  Justification for choosing an appropriate variant of Naive Bayes (e.g., **Multinomial**, **Bernoulli**, or **Gaussian**) based on the dataset.
+
+- **🛠️ Custom Implementation**  
+  Naive Bayes implemented from scratch (without libraries like `scikit-learn`).
+
+- **⚖️ Comparative Analysis**  
+  - Re-implementation using `scikit-learn` models  
+  - Performance comparison via **confusion matrix**, **precision**, **recall**
+
+- **🚨 Risk-Aware Decision Making**  
+  Bayes decision rule modified to incorporate **asymmetric misclassification costs** (e.g., spam vs. legitimate messages).
+
+---
+
+## ✍️ Question 2: Handwritten Digit Recognition with KNN
+
+Uses the **K-Nearest Neighbors (KNN)** algorithm to classify handwritten digits from the **MNIST** dataset.
+
+### 🔍 Key Tasks
+
+- **🧹 Data Normalization**  
+  - 10,000-sample subset selected  
+  - Normalized using **StandardScaler** or **MinMaxScaler** (with reasoning)
+
+- **🔧 Hyperparameter Tuning**  
+  - KNN trained with various **k** values  
+  - Model accuracy plotted vs. k to determine the optimal setting
+
+- **📉 Dimensionality Reduction with PCA**  
+  - **Principal Component Analysis (PCA)** applied to reduce feature space  
+  - Model tested on varying numbers of components  
+  - Visualized trade-offs between **accuracy** and **dimensionality**
+
+---
+
+## 📈 Question 3: Sales Analysis with Decision Trees
+
+Solves a **business analytics** task using Decision Trees to identify key features impacting clothing sales volume.
+
+### 🔍 Key Tasks
+
+- **🧹 Data Preprocessing**  
+  - 400 records with 10 features  
+  - Handling **missing values**, **duplicates**, and **categorical encoding**  
+  - Sales values binned into **Low / Medium / High** categories
+
+- **📊 Feature Analysis**  
+  - **Correlation matrix** to study feature-target relationships  
+  - Manual computation of **entropy** and **information gain** for split selection
+
+- **🌲 Model Training & Optimization**  
+  - Explains **pruning** and its benefits  
+  - Uses `GridSearchCV` to tune hyperparameters
+
+- **🧪 Evaluation & Interpretation**  
+  - Final tree **visualized** and analyzed  
+  - Checks for **overfitting/underfitting**  
+  - Evaluated using **confusion matrix** and other metrics
+
+---
+
+## 📌 Summary
+
+This mini-project demonstrates:
+- Implementation of models **from scratch**
+- Practical experience with **Scikit-learn**
+- Understanding of **Bayesian theory**, **KNN behavior**, and **Decision Tree splitting**
+- Application of **real-world datasets** and performance evaluation
+
+---
+
+## 🧑‍💻 Contributors
+
+- [Your Name Here]
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the `LICENSE` file for details.
