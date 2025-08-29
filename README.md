@@ -31,18 +31,13 @@ Clone the repository:
 
 
 git clone https://github.com/zbyt9406/ml-2025.git
-Navigate into the project directory:
-
-
-
-cd your-repository-name
-Install dependencies:
-It's recommended to create a requirements.txt file with all the necessary libraries and install them.
 
 
 
 pip install -r requirements.txt
+
 🛠️ Technologies Used
+
 Language: Python
 
 Libraries:
