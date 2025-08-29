@@ -8,12 +8,13 @@ Each project explores a different area of Machine Learning, starting from **clas
 ## 📁 Repository Structure
 
 ├── Mini-Project-1_Weather_Forecasting_and_Fault_Diagnosis/
-
+├
 ├── Mini-Project-2_Probabilistic_Models_and_Decision_Trees/
-
+├
 ├── Mini-Project-3_SVM_and_Dimensionality_Reduction/
-
+├
 ├── Mini-Project-4_Reinforcement_Learning/
+├
 └── README.md
 
 Each folder contains:
