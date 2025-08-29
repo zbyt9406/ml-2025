@@ -87,10 +87,7 @@ This project provides hands-on experience in:
 
 ---
 
-## 🧑‍💻 Contributors
-- [Your Name Here]
 
----
 
 ## 📄 License
 This project is licensed under the **MIT License** — see the `LICENSE` file for details.
