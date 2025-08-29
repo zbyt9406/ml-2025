@@ -95,11 +95,7 @@ This mini-project demonstrates:
 - Understanding of **Bayesian theory**, **KNN behavior**, and **Decision Tree splitting**
 - Application of **real-world datasets** and performance evaluation
 
----
 
-## 🧑‍💻 Contributors
-
-- [Your Name Here]
 
 ---
 
